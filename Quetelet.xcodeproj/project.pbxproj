@@ -15,6 +15,9 @@
 		3C8C233B252B435800C77424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8C2339252B435800C77424 /* Main.storyboard */; };
 		3C8C2347252B435800C77424 /* QueteletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C2346252B435800C77424 /* QueteletTests.swift */; };
 		3C8C2352252B435800C77424 /* QueteletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C2351252B435800C77424 /* QueteletUITests.swift */; };
+		88571F2A2B7CBDB8EF6C0E4E /* Pods_Quetelet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9506E2E872C0DC179C70DEEA /* Pods_Quetelet.framework */; };
+		9ADAEF043AEEE298C26DD1E7 /* Pods_QueteletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED73744C925167970A42EFC4 /* Pods_QueteletTests.framework */; };
+		FE1587C79E2EC7CBA147F3F9 /* Pods_Quetelet_QueteletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B07A87154CB8D210DC0912 /* Pods_Quetelet_QueteletUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08C2D34FF5960FE5A9808C22 /* Pods-QueteletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueteletTests.release.xcconfig"; path = "Target Support Files/Pods-QueteletTests/Pods-QueteletTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C8C232B252B435700C77424 /* Quetelet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quetelet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8C232E252B435700C77424 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C8C2330252B435700C77424 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +54,14 @@
 		3C8C234D252B435800C77424 /* QueteletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueteletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8C2351252B435800C77424 /* QueteletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueteletUITests.swift; sourceTree = "<group>"; };
 		3C8C2353252B435800C77424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43123B646A03FCFD2667A596 /* Pods-Quetelet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quetelet.debug.xcconfig"; path = "Target Support Files/Pods-Quetelet/Pods-Quetelet.debug.xcconfig"; sourceTree = "<group>"; };
+		4B89539236281AB1F8782219 /* Pods-Quetelet-QueteletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quetelet-QueteletUITests.release.xcconfig"; path = "Target Support Files/Pods-Quetelet-QueteletUITests/Pods-Quetelet-QueteletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EC493F55B70C4CF1E264539 /* Pods-Quetelet-QueteletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quetelet-QueteletUITests.debug.xcconfig"; path = "Target Support Files/Pods-Quetelet-QueteletUITests/Pods-Quetelet-QueteletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9506E2E872C0DC179C70DEEA /* Pods_Quetelet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quetelet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B07A87154CB8D210DC0912 /* Pods_Quetelet_QueteletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quetelet_QueteletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44CC995EEB43E1FBF6AE3A2 /* Pods-QueteletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueteletTests.debug.xcconfig"; path = "Target Support Files/Pods-QueteletTests/Pods-QueteletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCF430D0A5D4B54B701032A6 /* Pods-Quetelet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quetelet.release.xcconfig"; path = "Target Support Files/Pods-Quetelet/Pods-Quetelet.release.xcconfig"; sourceTree = "<group>"; };
+		ED73744C925167970A42EFC4 /* Pods_QueteletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueteletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88571F2A2B7CBDB8EF6C0E4E /* Pods_Quetelet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADAEF043AEEE298C26DD1E7 /* Pods_QueteletTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1587C79E2EC7CBA147F3F9 /* Pods_Quetelet_QueteletUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +99,8 @@
 				3C8C2345252B435800C77424 /* QueteletTests */,
 				3C8C2350252B435800C77424 /* QueteletUITests */,
 				3C8C232C252B435700C77424 /* Products */,
+				5CFE7F7D525C04117482BAB5 /* Pods */,
+				F5ECC8301A8CAB22D0633B11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +147,30 @@
 			path = QueteletUITests;
 			sourceTree = "<group>";
 		};
+		5CFE7F7D525C04117482BAB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43123B646A03FCFD2667A596 /* Pods-Quetelet.debug.xcconfig */,
+				DCF430D0A5D4B54B701032A6 /* Pods-Quetelet.release.xcconfig */,
+				8EC493F55B70C4CF1E264539 /* Pods-Quetelet-QueteletUITests.debug.xcconfig */,
+				4B89539236281AB1F8782219 /* Pods-Quetelet-QueteletUITests.release.xcconfig */,
+				D44CC995EEB43E1FBF6AE3A2 /* Pods-QueteletTests.debug.xcconfig */,
+				08C2D34FF5960FE5A9808C22 /* Pods-QueteletTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5ECC8301A8CAB22D0633B11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9506E2E872C0DC179C70DEEA /* Pods_Quetelet.framework */,
+				D0B07A87154CB8D210DC0912 /* Pods_Quetelet_QueteletUITests.framework */,
+				ED73744C925167970A42EFC4 /* Pods_QueteletTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C8C2356252B435800C77424 /* Build configuration list for PBXNativeTarget "Quetelet" */;
 			buildPhases = (
+				4339C2AFF8CBC38DA71D3332 /* [CP] Check Pods Manifest.lock */,
 				3C8C2327252B435700C77424 /* Sources */,
 				3C8C2328252B435700C77424 /* Frameworks */,
 				3C8C2329252B435700C77424 /* Resources */,
+				20BE4D2CF6ECD0A3B75EE51F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C8C2359252B435800C77424 /* Build configuration list for PBXNativeTarget "QueteletTests" */;
 			buildPhases = (
+				C2376C1EC3F099BD84DC0CFD /* [CP] Check Pods Manifest.lock */,
 				3C8C233E252B435800C77424 /* Sources */,
 				3C8C233F252B435800C77424 /* Frameworks */,
 				3C8C2340252B435800C77424 /* Resources */,
@@ -172,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C8C235C252B435800C77424 /* Build configuration list for PBXNativeTarget "QueteletUITests" */;
 			buildPhases = (
+				BC309BD002B13B1BE6950EB8 /* [CP] Check Pods Manifest.lock */,
 				3C8C2349252B435800C77424 /* Sources */,
 				3C8C234A252B435800C77424 /* Frameworks */,
 				3C8C234B252B435800C77424 /* Resources */,
+				870F16520F96F6A021ED1033 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20BE4D2CF6ECD0A3B75EE51F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quetelet/Pods-Quetelet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quetelet/Pods-Quetelet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quetelet/Pods-Quetelet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4339C2AFF8CBC38DA71D3332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quetelet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		870F16520F96F6A021ED1033 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quetelet-QueteletUITests/Pods-Quetelet-QueteletUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quetelet-QueteletUITests/Pods-Quetelet-QueteletUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quetelet-QueteletUITests/Pods-Quetelet-QueteletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC309BD002B13B1BE6950EB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quetelet-QueteletUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2376C1EC3F099BD84DC0CFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QueteletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C8C2327252B435700C77424 /* Sources */ = {
@@ -426,6 +575,7 @@
 		};
 		3C8C2357252B435800C77424 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43123B646A03FCFD2667A596 /* Pods-Quetelet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +597,7 @@
 		};
 		3C8C2358252B435800C77424 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF430D0A5D4B54B701032A6 /* Pods-Quetelet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,6 +619,7 @@
 		};
 		3C8C235A252B435800C77424 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44CC995EEB43E1FBF6AE3A2 /* Pods-QueteletTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		3C8C235B252B435800C77424 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C2D34FF5960FE5A9808C22 /* Pods-QueteletTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		3C8C235D252B435800C77424 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC493F55B70C4CF1E264539 /* Pods-Quetelet-QueteletUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +686,7 @@
 		};
 		3C8C235E252B435800C77424 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B89539236281AB1F8782219 /* Pods-Quetelet-QueteletUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
